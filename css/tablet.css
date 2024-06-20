@@ -1,0 +1,62 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.hero_txt{
+    width: 60%;
+    height: 40vh;
+}
+#header{
+    
+}
+#sec_2{
+    height: 120vh;
+}
+.sec_2{
+        display: block;
+        width: 90%;
+    }
+    .sec_2_img{
+        margin-bottom: 2rem;
+        width: 100%;
+    }
+    .sec_2_txt{
+        display:block;
+        width: 90%;
+        margin: auto;
+        padding: 0;
+    }
+    .sec_2_img2{
+        border-radius: 0 60px 0 0;
+    }
+    .sec_2_img4{
+        border-radius: 0 0 60px 0;
+    }
+
+#sec_3{
+        width: 100%;
+        min-height: 150vh;
+    }
+    .sec_3{
+        height: 80%;
+    }        
+.sec_3_modal{
+    height: 60%;
+    display: grid;
+    grid-template-areas:"1 2"
+                        "3 4" ;
+}
+#sec_4{
+    height: 120vh;
+    padding: 2rem 0;    
+}
+.sec_4{
+    height: 100%;
+}
+.sec_4_card{
+    display: grid;
+    grid-template-areas:"c1 c2 c3"
+                        "c4 c5 c6" ;
+}
